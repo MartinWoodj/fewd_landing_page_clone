@@ -26,6 +26,7 @@ footer, header, hgroup, menu, nav, section {
 
 body {
 	line-height: 1;
+	background-color: LightGray;
 }
 
 ol, ul {
@@ -47,10 +48,6 @@ table {
 	border-spacing: 0;
 }
 
-body {
-	background-color: LightGray;
-}
-
 div {
 	border: 1px solid Chocolate;
 }
@@ -58,7 +55,6 @@ div {
 html {
 	box-sizing: border-box;
 }
-
 
 *, *:before, *:after {
 	box-sizing: inherit;
@@ -87,16 +83,21 @@ html {
 
 .content {
 	padding: 0px 15px;
-	box-sizing: content-box;
 }
 
 .links {
 	float: right;
+	margin-top: 1.5em;
 }
 
 .links li {
 	padding-left: 2em;
 	display: inline-block;
+}
+
+.links a:hover {
+	color: #333;
+	cursor: pointer;
 }
 
 .top-navigation, .links a {
@@ -108,6 +109,41 @@ html {
 	color: #4c5058;
 	font-weight: 600;
 }
+
+/* Navigation section according to website */
+
+/*
+.top-navigation .links {
+	float: right;
+	font-family: 'Roboto', sans-serif;
+	color: #838994;
+	font-size: 16px;
+	margin-top: 25px;
+	-webkit-font-smoothing: antialiased;
+}
+
+.top-navigation .links li {
+	display: inline-block;
+	margin-left: 25px;
+}
+
+.top-navigation .links. active {
+	color: #4c5058;
+	font-weight: 500;
+}
+
+.top-navigaiton .links li:hover {
+	cursor: pointer;
+	color: 333;
+}
+*/
+
+/* End navigation section */
+
+
+
+
+
 
 
 
