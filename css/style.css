@@ -55,10 +55,20 @@ div {
 	border: 1px solid Chocolate;
 }
 
+/*
+html {
+	-webkit-font-smoothing: antialiased;
+}
+*/
+
 /* Navigation Section */
 
 .top-navigation {
 	background-color: #fff;
+	font-family: 'Roboto', sans-serif; 
+	font-size: 16px; 
+	color: #838994; 
+	letter-spacing: 0.03em;
 }
 
 .top-navigation, .content {
@@ -73,14 +83,31 @@ div {
 	margin-left: 33rem;
 }
 
+.content {
+	padding: 0px 15px;
+	box-sizing: content-box;
+}
 
+.links {
+	float: right;
+	padding-top: 2rem;
+	padding-right: 30rem;
+}
 
+.links li {
+	padding-left: 2.5rem;
+	display: inline-block;
+}
 
+.top-navigation, .links a {
+	text-decoration: none;
+	color: #838994;
+}
 
-
-
-
-
+.active a {
+	color: #4c5058;
+	font-weight: 600;
+}
 
 
 
