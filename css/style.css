@@ -26,7 +26,6 @@ footer, header, hgroup, menu, nav, section {
 
 body {
 	line-height: 1;
-	background-color: LightGray;
 	font-family: 'Roboto', sans-serif;
 }
 
@@ -49,9 +48,11 @@ table {
 	border-spacing: 0;
 }
 
+/*
 div {
 	border: 1px solid Chocolate;
 }
+*/
 
 html {
 	box-sizing: border-box;
@@ -162,7 +163,11 @@ html {
 .introduction h1 {
 	font-size: 3em;
 	margin-top: 6em;
-	padding-bottom: .25em;
+}
+
+.introduction h3 {
+	font-size: 1.5em;
+	margin-top: .75em;
 }
 
 .introduction h1, .introduction h3 {
