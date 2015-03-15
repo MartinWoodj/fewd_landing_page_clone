@@ -7,8 +7,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -19,7 +19,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -66,9 +66,9 @@ html {
 
 .top-navigation {
 	background-color: #fff;
-	font-family: 'Roboto', sans-serif; 
-	font-size: 16px; 
-	color: #838994; 
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	color: #838994;
 	letter-spacing: 0.03em;
 	position: fixed;
 	width: 100%;
@@ -231,23 +231,59 @@ html {
     font-size: 1.313rem;
 }
 
+/* Footer section */
 
+.social {
+	overflow: auto;
+	padding-bottom: 9em;
+	text-align: center;
+}
 
+.social hr {
+	border: 0;
+	border-top: 1px solid #eaebec;
+	margin: 1em 0;
+}
 
+.social h5 {
+	text-align: center;
+}
 
+.social .icons {
+	text-align: center;
+	border-radius: 1.25em;
+	display: inline-block;
+	padding: 0.5em 0;
+}
 
+.social .icons li {
+		border-radius: 1.25em;
+		width: 2.5em;
+		height: 2.5em;
+		display: inline-block;
+		margin: 1.25em 5px;
+		border: 1px solid #eaebec;
+		padding: 0.625em 0;
+		text-align: center;
+}
 
+.social .icons li:hover {
+		cursor: pointer;
+}
 
+.social .twitter {
+		color: #55acee;
+}
 
+.social .facebook {
+		color: #4c66a4;
+}
 
+.social .instagram {
+		color: #3f729b;
+}
 
-
-
-
-
-
-
-
-
-
-
+.copy p {
+	font-size: .75em;
+	color: #bdc8d3;
+}
