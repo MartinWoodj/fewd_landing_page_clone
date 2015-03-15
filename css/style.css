@@ -196,9 +196,32 @@ html {
 	cursor: pointer;
 }
 
+.cases .devices {
+	width: 33.3333333%;
+	display: inline-block;
+/* 	Debugging */
+	border: 1px solid black;
+	box-sizing: border-box;
+	height: 4em;
+}
 
 
 
+
+/*
+.cases h2 {
+	font-size: 2.75em;
+	font-weight: 300;
+	margin: 1.1625em 0 3.125em;
+}
+
+.devices, .caption {
+	display: list-item;
+	border: solid black;
+	width: 30.3333333%;
+	float: left;
+}
+*/
 
 
 
