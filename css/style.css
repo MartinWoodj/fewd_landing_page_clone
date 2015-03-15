@@ -70,6 +70,9 @@ html {
 	font-size: 16px; 
 	color: #838994; 
 	letter-spacing: 0.03em;
+	position: fixed;
+	width: 100%;
+	z-index: 9999;
 }
 
 /* Revisit this width in the end. Changed from 100% */
@@ -196,33 +199,37 @@ html {
 	cursor: pointer;
 }
 
-.cases .devices {
-	width: 33.3333333%;
-	display: inline-block;
-/* 	Debugging */
-	border: 1px solid black;
-	box-sizing: border-box;
-	height: 4em;
+/* I would like to go over this section. */
+
+.cases {
+    background-color: #fff;
+    overflow: hidden;
+    padding-bottom: 5rem;
 }
-
-
-
-
-/*
+.cases .content {
+    margin-top: 7.875rem;
+    padding: none;
+    color: #1d1e21;
+    text-align: center;
+}
 .cases h2 {
-	font-size: 2.75em;
-	font-weight: 300;
-	margin: 1.1625em 0 3.125em;
+    font-size: 2.75rem;
+    margin: 1.625rem 0 3.125rem;
+    font-weight: 300;
 }
-
-.devices, .caption {
-	display: list-item;
-	border: solid black;
-	width: 30.3333333%;
-	float: left;
+.cases .devices > li {
+    width: 33.3333333%;
+    float:left;
 }
-*/
-
+.cases .devices h3 {
+    font-weight: 400;
+    font-size: 1.563rem;
+    margin: 2.5rem 0px 1.875rem;
+}
+.cases .devices p {
+    font-weight: 300;
+    font-size: 1.313rem;
+}
 
 
 
